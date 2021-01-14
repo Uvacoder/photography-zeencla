@@ -1,0 +1,41 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'DM-sans';
+    src: url('../fonts/DMSans-Regular.ttf');
+}
+* {
+    font-family: 'DM-sans' url('../fonts/DMSans-Regular.ttf') format('ttf');
+}
+
+
+img {
+    -webkit-backface-visibility: hidden;
+    -ms-transform: translateZ(0);
+    /* IE 9 */
+    -webkit-transform: translateZ(0);
+    /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+}
+img {
+    scale: .9;
+    cursor:pointer;
+}
+
+
+.fade-in-section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+        visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}

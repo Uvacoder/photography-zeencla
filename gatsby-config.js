@@ -4,7 +4,23 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+require('dotenv').config();
+
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+plugins:[
+    {
+        resolve: `gatsby-source-cloudinary`,
+        options: {
+          cloudName: process.env.CLOUDINARY_CLOUD_NAME,
+          apiKey: process.env.CLOUDINARY_API_KEY,
+          apiSecret: process.env.CLOUDINARY_API_SECRET,
+          resourceType: `image`,
+          prefix: `gallery/` ,
+          context: true,
+          tags: true,
+          maxResults: 50
+        }
+    } ,
+    'gatsby-plugin-postcss'
+  ]
 }
