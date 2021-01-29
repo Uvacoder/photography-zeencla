@@ -11,6 +11,18 @@
     font-family: 'DM-sans' url('../fonts/DMSans-Regular.ttf') format('ttf');
 }
 
+.about-nav{
+     position: relative !important;
+     display: block;
+}
+
+textarea {
+    height:300px;
+    width:100%;
+}
+.aboutme{
+    position:  relative !important;
+}
 
 img {
     -webkit-backface-visibility: hidden;

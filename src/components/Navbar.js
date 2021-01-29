@@ -9,7 +9,7 @@ const Navbar = () => (
         <Link
           to="/"
           activeClassName="text-blue-600"
-          className="w-full p-2 text-2xl font-bold md:text-3xl cursor-pointer "
+          className="w-full md:w-auto block p-2 text-2xl font-bold md:text-3xl cursor-pointer "
         >
           zeec
         </Link>
@@ -21,15 +21,15 @@ const Navbar = () => (
           about
         </Link>
       </div>
-      {/* <div className="-mt-1 px-2 flex bg-white md:flex-row md:justify-between md:hidden">
+      <div className="-mt-1 px-2 flex bg-white md:flex-row md:justify-between md:hidden">
         <Link
-          to="/albums"
+          to="/contact"
           activeClassName="text-blue-600"
           className="md:hidden flex-grow p-2 text-2xl font-bold md:text-3xl font-bold cursor-pointer border-b-2 border-transparent md:hover:border-black"
         >
-          index
+          contact
         </Link>
-      </div> */}
+      </div>
     </nav>
   </>
 )

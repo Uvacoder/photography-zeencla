@@ -18,7 +18,7 @@ export default function () {
             to="/"
           >
             Click here
-          </Link>{" "}
+          </Link>
           to go to gallery
         </h1>
       </div>

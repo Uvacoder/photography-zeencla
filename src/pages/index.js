@@ -10,7 +10,7 @@ export default function Home() {
       <div className="container m-auto px-6 py-6 sm:w-4/5">
         <Gallery />
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
