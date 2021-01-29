@@ -6,6 +6,8 @@ I also decided to style this with Tailwind CSS. I had never used it before so I 
 
 # Tools
 
-GatsbyJs
-Tailwind CSS
-Cloudinary 
+ <ul>
+  <li>GatsbyJs</li>
+  <li>Tailwind CSS</li>
+  <li>Cloudinary </li>
+</ul>
