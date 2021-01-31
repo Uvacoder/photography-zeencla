@@ -46,7 +46,6 @@ const Gallery = () => {
     `
   )
   const images = data.allCloudinaryMedia.edges
-  console.log(images)
   return (
     <div className="grid w-full grid-cols-1 gap-2 sm:grid-cols-3 lg:gap-20 sm:py-12">
       {images.map((image, index) => (
