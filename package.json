@@ -5,16 +5,16 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build:css":"tailwind build src/styles/global.css -o dist/style.css",
+    "build:css": "tailwind build src/styles/global.css -o dist/style.css",
     "build": " npm run build:css && gatsby build",
-    "develop": "gatsby develop",
+    "develop": "npm run build:css  && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "autoprefixer": "^10.1.0",
+    "autoprefixer": "^10.2.4",
     "dotenv": "^8.2.0",
     "gatsby": "^2.25.3",
     "gatsby-image": "^2.8.0",
