@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 import { Link } from "gatsby"
-
+import "../styles/global.css"
 import profile from "../../static/profile.jpg"
 //m-auto grid grid-cols-1 pt-20 md:pt-0 md:grid-cols-2 md:justify-center md:align-center
 export default function About() {

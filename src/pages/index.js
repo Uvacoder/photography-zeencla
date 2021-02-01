@@ -3,6 +3,8 @@ import Gallery from "../components/Gallery"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
+import "../styles/global.css"
+
 export default function Home() {
   return (
     <div>
