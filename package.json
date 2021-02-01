@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "build:css": "tailwind build src/styles/global.css -o dist/style.css",
+    "build:css": "tailwind build src/styles/global.css -o src/styles/styles.css",
     "build": " npm run build:css && gatsby build",
     "develop": "npm run build:css  && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",

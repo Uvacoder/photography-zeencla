@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/global.css"
+import "../styles/styles.css"
 import Navbar from "../components/Navbar"
 
 import { Link } from "gatsby"

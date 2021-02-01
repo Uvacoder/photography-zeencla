@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 
 import "../styles/global.css"
+import "../styles/styles.css"
 
 export default function Home() {
   return (
