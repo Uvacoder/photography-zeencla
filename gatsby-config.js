@@ -11,9 +11,9 @@ plugins:[
     {
         resolve: `gatsby-source-cloudinary`,
         options: {
-          cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-          apiKey: process.env.CLOUDINARY_API_KEY,
-          apiSecret: process.env.CLOUDINARY_API_SECRET,
+          cloudName: `iarenotamnot`,
+          apiKey: `474614758638643`,
+          apiSecret: `zro75o_Ij8abg4fCFOfCpR4ogSg`,
           resourceType: `image`,
           context: true,
           tags: true,
